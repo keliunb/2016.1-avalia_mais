@@ -20,7 +20,7 @@ rvm:
 notifications:
   email:
     recipients:
-      - rafael.akiyoshi@gmail.com
+      - keliunb@gmail.com
   
 branches:
   only:
