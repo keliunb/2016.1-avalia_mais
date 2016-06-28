@@ -1,10 +1,9 @@
 
 language: ruby
 
-deploy:
-  on:
-    tags: true
-    all_branches: true
+branches:
+  only:
+    - master
 
 services:
   - mysql
