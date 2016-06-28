@@ -3,7 +3,7 @@ language: ruby
 
 services:
   - mysql
-  
+
 before_install: 
     - mysql -e 'create database myapp_test;'
 script:
@@ -21,7 +21,7 @@ notifications:
   email:
     recipients:
       - keliunb@gmail.com
-  
+
 branches:
   only:
 
