@@ -1,8 +1,10 @@
 
 language: ruby
 
-branches: 
-  - master
+deploy:
+  on:
+    tags: true
+    all_branches: true
 
 services:
   - mysql
