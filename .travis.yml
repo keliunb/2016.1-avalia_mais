@@ -1,6 +1,9 @@
 
 language: ruby
 
+branches: 
+  - master
+
 services:
   - mysql
 
