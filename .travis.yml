@@ -3,7 +3,7 @@ language: ruby
 
 branches:
   only:
-    - master
+  - master
 
 services:
   - mysql
